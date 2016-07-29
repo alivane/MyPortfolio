@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background: #fffffa; }
+
+header {
+  width: 100%; }
+  header .menu_bar {
+    display: none; }
+  header nav {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: red; }
+    header nav ul {
+      overflow: hidden; }
+      header nav ul li {
+        list-style: none;
+        float: left; }
+        header nav ul li a {
+          color: white;
+          padding: 20px;
+          text-decoration: none;
+          display: block; }
+          header nav ul li a:hover {
+            background: blue;
+            text-decoration: none;
+            color: white; }
+        header nav ul li i {
+          margin-right: 10px; }
+
+@media screen and (max-width: 800px) {
+  header nav {
+    width: 80%;
+    height: 100%;
+    margin: 0px;
+    position: fixed; }
+    header nav ul li {
+      display: block;
+      float: none;
+      border-bottom: 3px solid white; }
+  header .menu_bar {
+    display: block;
+    width: 100%;
+    background: #ccc; }
+    header .menu_bar .bt-menu {
+      display: block;
+      padding: 20px;
+      background: blue;
+      color: white;
+      font-weight: bold;
+      font-size: 25px; }
+    header .menu_bar i {
+      float: right;
+      font-size: 40px; } }
+
+/*# sourceMappingURL=main.css.map */
