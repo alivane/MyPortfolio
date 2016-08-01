@@ -7,27 +7,26 @@ body{
 }
 header{
 	width:100%;
-	.menu_bar{
-		display: none;
-	}
 	nav{
-		width:90%;
-		margin:20px auto;
-		max-width: 1000px;
+		width:65%;
+		margin:0 auto;
 		background-color:red;
+		position:fixed;
+		z-index:2;
 		ul{
 			overflow:hidden;
 			li{
 				list-style: none;
-				float:left;
+				display:block;
+				border-bottom:3px solid white;
 				a{
 					color:white;
-					padding:20px;
+					padding:15px;
 					text-decoration:none;
 					display:block;
 					&:hover{
-						background:blue;
 						text-decoration:none;
+						background-color:blue;
 						color:white;
 					}
 				}
@@ -37,38 +36,18 @@ header{
 			}
 		}
 	}
-}
-@media screen and (max-width:800px){
-	header {
-		nav{
-			width:80%;
-			height: 100%;
-			margin:0px;
-			position:fixed;
-			ul{
-				li{
-					display:block;
-					float:none;
-					border-bottom:3px solid white;
-				}
-			}
-		}
-		.menu_bar{
+	.menu_bar{
 			display:block;
 			width:100%;
-			background:#ccc;
 			.bt-menu{
 				display:block;
 				padding:20px;
-				background:blue;
-				color:white;
+				color:red;
 				font-weight: bold;
 				font-size:25px;
 			}
 			i{
-				float:right;
 				font-size: 40px;
 			}
-		}
 	}
 }
