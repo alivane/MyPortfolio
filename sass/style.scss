@@ -7,12 +7,11 @@ body{
 }
 header{
 	width:100%;
+	position:fixed;
 	nav{
 		width:65%;
 		margin:0 auto;
-		background-color:red;
-		position:fixed;
-		z-index:2;
+		background-color:#F6D8CE;
 		ul{
 			overflow:hidden;
 			li{
@@ -20,13 +19,13 @@ header{
 				display:block;
 				border-bottom:3px solid white;
 				a{
-					color:white;
+					color:grey;
 					padding:15px;
 					text-decoration:none;
 					display:block;
 					&:hover{
 						text-decoration:none;
-						background-color:blue;
+						background-color:#c273ef;
 						color:white;
 					}
 				}
@@ -38,16 +37,22 @@ header{
 	}
 	.menu_bar{
 			display:block;
-			width:100%;
 			.bt-menu{
 				display:block;
 				padding:20px;
-				color:red;
+				color:grey;
 				font-weight: bold;
 				font-size:25px;
 			}
 			i{
 				font-size: 40px;
+				cursor: pointer;
 			}
 	}
+}
+.contenido{
+	background-image:url(../img/header-ali-01.jpg);
+	height:380px;
+	background-size:100% 100%;
+	background-attachment: fixed;
 }
