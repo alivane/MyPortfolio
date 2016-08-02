@@ -210,8 +210,72 @@ section{
 				padding-right: 100px;
 				position: absolute;
 			}
+			span {
+				display: block;
+				text-align: right;
+				&:last-child {
+					font-size: 2.9em;
+					color: #FFE0D2;
+				}
+			}
+			.cbp_tmlabel {
+				margin: 0 0 15px 25%;
+				background: #E397A6;
+				color: #fff;
+				padding: 2em;
+				font-size: 1.2em;
+				font-weight: 300;
+				line-height: 1.2;
+				position: relative;
+				border-radius: 5px;
+				h2 { 
+					margin-top: 0px;
+					padding: 0 0 10px 0;
+					border-bottom: 1px solid rgba(255,255,255,0.4);
+				}
+				 &:after {
+					right: 100%;
+					border: solid transparent;
+					content: " ";
+					height: 0;
+					width: 0;
+					position: absolute;
+					pointer-events: none;
+					border-right-color: #3594cb;
+					border-width: 10px;
+					top: 10px;
+				}
+			}	
+			.cbp_tmicon {
+				width: 40px;
+				height: 40px;
+				font-family: 'ecoico';
+				speak: none;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				font-size: 1.4em;
+				line-height: 40px;
+				-webkit-font-smoothing: antialiased;
+				position: absolute;
+				color: #fff;
+				background: #7BA0EB;
+				border-radius: 50%;
+				box-shadow: 0 0 0 8px #FFA2B9;
+				text-align: center;
+				left: 20%;
+				top: 0;
+				margin: 0 0 0 -25px;
+			}
 		}
 	} 
+}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+	color: #A0BCFE;
+}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	background: #738FEE;
 }
 
 @media screen and (max-width: 720px) {
