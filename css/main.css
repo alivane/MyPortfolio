@@ -156,7 +156,11 @@ section {
   .section-2 i {
     font-size: 30px;
     margin: 10px;
-    color: #F59BB3; }
+    color: #FFA2B9; }
+
+.section-3 {
+  background-color: #526DAD;
+  color: whitesmoke; }
 
 @media screen and (max-width: 720px) {
   .ia-container {
