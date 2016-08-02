@@ -7,11 +7,12 @@ body {
 
 header {
   width: 100%;
-  position: fixed; }
+  position: fixed;
+  z-index: 2; }
   header nav {
-    width: 65%;
+    width: 40%;
     margin: 0 auto;
-    background-color: #F6D8CE; }
+    background-color: #ECC3B0; }
     header nav ul {
       overflow: hidden; }
       header nav ul li {
@@ -43,8 +44,13 @@ header {
 
 .contenido {
   background-image: url(../img/header-ali-01.jpg);
-  height: 380px;
-  background-size: 100% 100%;
-  background-attachment: fixed; }
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+  background-attachment: fixed;
+  background-position: 50% 0%; }
+
+img {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
