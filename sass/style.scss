@@ -80,5 +80,48 @@ img{
 	    position: relative;
 		left: 0 !important;
 	}
+	img {
+		display: block;
+		width: 100%;
+	}
+	input {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50px; /* just cover visible part */
+		height: 100%;
+		cursor: pointer;
+		border: 0;
+		padding: 0;
+	    opacity: 0;
+		z-index: 100;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		&:checked + figcaption,
+		&:checked:hover + figcaption{
+			background: rgba(87, 73, 81, 0);
+		}
+		&:checked{
+			width: 5px;
+			left: auto;
+			right: 0px;
+			&~ figure {
+			    left: 335px;
+			    transition: all 0.7s ease-in-out;
+			}
+		}
+		&:checked + figcaption span {
+		    transition: all 0.4s ease-in-out 0.5s;
+			opacity: 1;
+			top: 50%;
+		}
+		&:hover + figcaption {
+			background: rgba(87, 73, 81, 0.03);
+		}
+		&:checked ~ figure input{
+		    z-index: 1;
+		}
+	}
 	
 }
