@@ -155,3 +155,45 @@ img{
 		} 
 	}
 }
+@media screen and (max-width: 720px) {
+    .ia-container { 
+		width: 540px;
+		figure { 
+			left: 40px; 
+			width: 260px; 
+		} 
+		input { 
+			width: 40px; 
+			&:checked ~ figure { 
+				left: 260px; 
+			}
+		}
+		figcaption span { 
+			font-size: 16px; 
+		}
+	}
+	
+}
+
+@media screen and (max-width: 520px) {
+    .ia-container { 
+		width: 320px; 
+		figure { 
+			left: 20px; 
+			width: 180px; 
+		}
+		input { 
+			width: 20px; 
+			&:checked ~ figure { 
+				left: 180px; 
+			}
+		}
+		figcaption span { 
+			font-size: 12px; 
+			letter-spacing: 2px; 
+			padding: 10px; 
+			margin-top: -20px; 
+		} 
+	}
+
+}

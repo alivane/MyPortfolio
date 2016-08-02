@@ -132,4 +132,32 @@ img {
       color: #fff;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); }
 
+@media screen and (max-width: 720px) {
+  .ia-container {
+    width: 540px; }
+    .ia-container figure {
+      left: 40px;
+      width: 260px; }
+    .ia-container input {
+      width: 40px; }
+      .ia-container input:checked ~ figure {
+        left: 260px; }
+    .ia-container figcaption span {
+      font-size: 16px; } }
+@media screen and (max-width: 520px) {
+  .ia-container {
+    width: 320px; }
+    .ia-container figure {
+      left: 20px;
+      width: 180px; }
+    .ia-container input {
+      width: 20px; }
+      .ia-container input:checked ~ figure {
+        left: 180px; }
+    .ia-container figcaption span {
+      font-size: 12px;
+      letter-spacing: 2px;
+      padding: 10px;
+      margin-top: -20px; } }
+
 /*# sourceMappingURL=main.css.map */
