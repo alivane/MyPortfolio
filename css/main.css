@@ -90,16 +90,18 @@ hr {
 .section-3 {
   background-color: #5F77CB;
   padding: 50px 50px 70px 50px; }
-  .section-3 h1, .section-3 h3 {
+  .section-3 h1 {
     color: whitesmoke;
     display: inline-block; }
-  .section-3 img {
-    margin: 10px;
-    width: 80%;
-    height: 200px;
+  .section-3 .cuadro {
     background-color: #F9D6E4;
-    padding: 20px;
+    padding: 5px;
     border: 5px solid #EC4790;
-    border-radius: 20px; }
+    border-radius: 20px;
+    width: 80%;
+    margin: 40px; }
+  .section-3 img {
+    width: 80%;
+    height: 200px; }
 
 /*# sourceMappingURL=main.css.map */
