@@ -88,8 +88,18 @@ hr {
     color: #EC4790; }
 
 .section-3 {
-  background-color: #5F77CB; }
-  .section-3 h1 {
-    color: whitesmoke; }
+  background-color: #5F77CB;
+  padding: 50px 50px 70px 50px; }
+  .section-3 h1, .section-3 h3 {
+    color: whitesmoke;
+    display: inline-block; }
+  .section-3 img {
+    margin: 10px;
+    width: 80%;
+    height: 200px;
+    background-color: #F9D6E4;
+    padding: 20px;
+    border: 5px solid #EC4790;
+    border-radius: 20px; }
 
 /*# sourceMappingURL=main.css.map */
