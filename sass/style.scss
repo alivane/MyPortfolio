@@ -11,7 +11,7 @@ header{
 	z-index:2;
 	nav{
 		width:40%;
-		background-color:#F0DED9;
+		background-color:$lilaOscuro;
 		text-align: center;
 		font-size: 17px;
 		ul{
@@ -19,16 +19,16 @@ header{
 			li{
 				list-style: none;
 				display:block;
-				border-bottom:3px solid #9C9C9C;
+				border-bottom:3px solid whitesmoke;
 				a{
-					color:grey;
+					color:whitesmoke;
 					padding:15px;
 					text-decoration:none;
 					display:block;
 					&:hover{
 						text-decoration:none;
-						background-color:#7F6197;
-						color:#F7FBF9;
+						background-color:$rosaClaro;
+						color:$lilaOscuro;
 						text-align: center;
 					}
 				}
@@ -48,8 +48,8 @@ header{
 				font-size:25px;
 			}
 			i{
-				background-color:#000;
-				padding:5px;
+				background-color:$lilaOscuro;
+				padding:10px;
 				border-radius:7px;
 				font-size: 40px;
 				cursor: pointer;
@@ -67,256 +67,44 @@ header{
 img{
 	width:100%;
 }
-.ia-container {
-	width: 685px;
-	margin: 20px auto;
-	overflow: hidden;
-	box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
-	border: 7px solid rgba(255,255,255,0.6);
-	figure {
-	    position: absolute;
-		top: 0;
-		left: 50px; 
-		width: 335px;
-	    box-shadow: 0 0 0 1px rgba(255,255,255,0.6);
-	    transition: all 0.3s ease-in-out;
-	}
-	> figure {
-	    position: relative;
-		left: 0 !important;
-	}
-	img {
-		display: block;
-		width: 100%;
-	}
-	input {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 50px; /* just cover visible part */
-		height: 100%;
-		cursor: pointer;
-		border: 0;
-		padding: 0;
-	    opacity: 0;
-		z-index: 100;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
-		&:checked + figcaption,
-		&:checked:hover + figcaption{
-			background: rgba(87, 73, 81, 0);
-		}
-		&:checked{
-			width: 5px;
-			left: auto;
-			right: 0px;
-			&~ figure {
-			    left: 335px;
-			    transition: all 0.7s ease-in-out;
-			}
-		}
-		&:checked + figcaption span {
-		    transition: all 0.4s ease-in-out 0.5s;
-			opacity: 1;
-			top: 50%;
-		}
-		&:hover + figcaption {
-			background: rgba(87, 73, 81, 0.03);
-		}
-		&:checked ~ figure input{
-		    z-index: 1;
-		}
-	}
-	#ia-selector-last:checked + figcaption span {
-		transition-delay: 0.3s;
-	}
-
-	figcaption {
-		width: 100%;
-		height: 100%;
-		background: rgba(87, 73, 81, 0.1);
-		position: absolute;
-		top: 0px;
-	    transition: all 0.2s linear;
-	    span {
-			position: absolute;
-			top: 40%;
-			margin-top: -30px;
-			right: 20px;
-			left: 20px;
-			overflow: hidden;
-			text-align: center;
-			background: rgba(87, 73, 81, 0.3);
-			line-height: 20px;
-			font-size: 18px;
-		    opacity: 0;
-			text-transform: uppercase;
-			letter-spacing: 4px;
-			font-weight: 700;
-			padding: 20px;
-			color: #fff;
-			text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-		} 
-	}
-}
 section{
 	text-align:center;
 }
+hr{
+	height:2px;
+	width:5%;
+	margin:auto;
+}
 .section-2{
 	background-color:#FFFDF7;
+	padding:30px;
 	.foto{
 		border-radius:100%;
 		height:200px;
 		width:80%;
 		padding:5px;
-		box-shadow:0px 6px 5px #462935;
-	}
-	img{
-		height:200px;
-		width:100%;
-		border-radius:7px;
-		box-shadow:0px 2px 2px #462935;
 	}
 	i{
 		font-size:30px;
 		margin:10px;
-		color:#FFA2B9;
+		color:$rosaOscuro;
+	}
+	h1{
+		color:$rosaOscuro;
+	}
+	hr{
+		background-color:$rosaOscuro;
+	}
+	h2{
+		color:$lilaOscuro;
+	}
+	h3{
+		color:$rosaOscuro;
 	}
 }
 .section-3{
-	background-color:#526DAD;
-	color:whitesmoke;
-	.cbp_tmtimeline {
-		margin: 30px 0 0 0;
-		padding: 0;
-		list-style: none;
-		position: relative;
-		&:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			width: 10px;
-			background: #FFA2B9;
-			left: 20%;
-			margin-left: -10px;
-		}
-		> li {
-			position: relative;
-			.cbp_tmtime {
-				display: block;
-				width: 25%;
-				padding-right: 100px;
-				position: absolute;
-			}
-			span {
-				display: block;
-				text-align: right;
-				&:last-child {
-					font-size: 2.9em;
-					color: #FFE0D2;
-				}
-			}
-			.cbp_tmlabel {
-				margin: 0 0 15px 25%;
-				background: #E397A6;
-				color: #fff;
-				padding: 2em;
-				font-size: 1.2em;
-				font-weight: 300;
-				line-height: 1.2;
-				position: relative;
-				border-radius: 5px;
-				h2 { 
-					margin-top: 0px;
-					padding: 0 0 10px 0;
-					border-bottom: 1px solid rgba(255,255,255,0.4);
-				}
-				 &:after {
-					right: 100%;
-					border: solid transparent;
-					content: " ";
-					height: 0;
-					width: 0;
-					position: absolute;
-					pointer-events: none;
-					border-right-color: #3594cb;
-					border-width: 10px;
-					top: 10px;
-				}
-			}	
-			.cbp_tmicon {
-				width: 40px;
-				height: 40px;
-				font-family: 'ecoico';
-				speak: none;
-				font-style: normal;
-				font-weight: normal;
-				font-variant: normal;
-				text-transform: none;
-				font-size: 1.4em;
-				line-height: 40px;
-				-webkit-font-smoothing: antialiased;
-				position: absolute;
-				color: #fff;
-				background: #7BA0EB;
-				border-radius: 50%;
-				box-shadow: 0 0 0 8px #FFA2B9;
-				text-align: center;
-				left: 20%;
-				top: 0;
-				margin: 0 0 0 -25px;
-			}
-		}
-	} 
-}
-.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
-	color: #A0BCFE;
-}
-.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-	background: #738FEE;
-}
-
-@media screen and (max-width: 720px) {
-    .ia-container { 
-		width: 540px;
-		figure { 
-			left: 40px; 
-			width: 260px; 
-		} 
-		input { 
-			width: 40px; 
-			&:checked ~ figure { 
-				left: 260px; 
-			}
-		}
-		figcaption span { 
-			font-size: 16px; 
-		}
+	background-color:#5F77CB;
+	h1{
+		color:whitesmoke;
 	}
-	
-}
-
-@media screen and (max-width: 520px) {
-    .ia-container { 
-		width: 320px; 
-		figure { 
-			left: 20px; 
-			width: 180px; 
-		}
-		input { 
-			width: 20px; 
-			&:checked ~ figure { 
-				left: 180px; 
-			}
-		}
-		figcaption span { 
-			font-size: 12px; 
-			letter-spacing: 2px; 
-			padding: 10px; 
-			margin-top: -20px; 
-		} 
-	}
-
 }
