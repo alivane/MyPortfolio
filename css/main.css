@@ -120,6 +120,43 @@ hr {
     width: 90%;
     height: 100px; }
 
+.section-4 .ch-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  cursor: default;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+.section-4 .ch-thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.5);
+  transform-origin: 95% 40%;
+  transition: all 0.3s ease-in-out; }
+  .section-4 .ch-thumb:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    left: 95%;
+    margin: -4px 0 0 -4px;
+    background: radial-gradient(ellipse at center, #0e0e0e 0%, #7d7e7d 100%);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.9); }
+.section-4 .ch-img-1 {
+  background-image: url(../img/cabeza.jpg);
+  z-index: 12; }
+.section-4 .ch-img-2 {
+  background-image: url(../img/cabeza.jpg);
+  z-index: 11; }
+.section-4 .ch-img-3 {
+  background-image: url(../img/cabeza.jpg);
+  z-index: 10; }
+
 .section-5 {
   background-color: #EC4790;
   color: whitesmoke;
