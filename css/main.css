@@ -57,7 +57,13 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 450px;
   background-attachment: fixed;
-  background-position: 50% 0%; }
+  background-position: 50% 0%;
+  color: #380722;
+  transition-duration: 3s, 5s;
+  transition-property: opacity, left, top, height; }
+  .contenido h1 {
+    width: 70%;
+    margin: 60px auto; }
 
 img {
   width: 100%; }
@@ -69,11 +75,6 @@ hr {
   height: 2px;
   width: 5%;
   margin: auto; }
-
-#slider {
-  height: 150px;
-  padding-top: 20px;
-  color: white; }
 
 .section-2 {
   background-color: #FFFDF7;
