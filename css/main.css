@@ -102,6 +102,24 @@ hr {
     margin: 40px; }
   .section-3 img {
     width: 80%;
-    height: 200px; }
+    height: 100px; }
+
+.section-5 {
+  background-color: #EC4790;
+  color: whitesmoke;
+  padding: 40px; }
+  .section-5 .row i {
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    color: #F49CD2;
+    text-shadow: 0px 4px 6px #4B4B4B; }
+
+footer .container {
+  background-color: #8C4B9B;
+  height: 100px;
+  color: white;
+  padding: 30px; }
 
 /*# sourceMappingURL=main.css.map */
