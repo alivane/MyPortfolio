@@ -71,6 +71,8 @@ header {
     margin: 60px auto;
     color: #FFE0FE;
     text-shadow: 0px 5px 4px #000; }
+  .contenido .selectores1 a {
+    color: white; }
   .contenido .selectores1 li {
     display: inline-block;
     background-color: #8C4B9B;
