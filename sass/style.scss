@@ -271,20 +271,43 @@ hr{
 		}
 }
 .section-5{
-	background-color:$rosaOscuro;
-	color:whitesmoke;
-	padding:40px;
-	.row{
+	background-color:$lilaOscuro;
+	color:#F5D6F1;
+	.contacto{
+		background-color:$rosaClaro;
+		height:150px;
+		margin-top:30px;
+		padding-top:30px;
+		border-radius:20px;
+		width:100%;
+		transition: all 0.5s ease-in-out;
+		.esconder{
+			display:none;
+		}
 		i{
 			font-size: 60px;
-			margin-top:70px;
-			margin-bottom:40px;
-			cursor: pointer;
-			color:whitesmoke;
-			text-shadow:0px 4px 6px #4B4B4B;
-			
+			color:#FFE0FE;
+		}
+		a{
+			text-decoration:none;
+		}
+		&:hover{
+			background: rgba(255,255,252,0.5);
+			transform: translateX(10px) rotate(7deg);
+			color:white;
+			.esconder{
+				display:block;
+				font-size: 20px;
+				padding-top:30px;
+				color:white;
+			}
+			i{
+				display:none;
+			}
+
 		}
 	}
+	
 }
 footer{
 	.container{

@@ -220,16 +220,34 @@ hr {
   transform: translateX(0px) rotate(0deg); }
 
 .section-5 {
-  background-color: #EC4790;
-  color: whitesmoke;
-  padding: 40px; }
-  .section-5 .row i {
-    font-size: 60px;
-    margin-top: 70px;
-    margin-bottom: 40px;
-    cursor: pointer;
-    color: whitesmoke;
-    text-shadow: 0px 4px 6px #4B4B4B; }
+  background-color: #8C4B9B;
+  color: #F5D6F1; }
+  .section-5 .contacto {
+    background-color: #F49CD2;
+    height: 150px;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    transition: all 0.5s ease-in-out; }
+    .section-5 .contacto .esconder {
+      display: none; }
+    .section-5 .contacto i {
+      font-size: 60px;
+      color: #FFE0FE; }
+    .section-5 .contacto a {
+      text-decoration: none; }
+    .section-5 .contacto:hover {
+      background: rgba(255, 255, 252, 0.5);
+      transform: translateX(10px) rotate(7deg);
+      color: white; }
+      .section-5 .contacto:hover .esconder {
+        display: block;
+        font-size: 20px;
+        padding-top: 30px;
+        color: white; }
+      .section-5 .contacto:hover i {
+        display: none; }
 
 footer .container {
   background-color: #8C4B9B;
