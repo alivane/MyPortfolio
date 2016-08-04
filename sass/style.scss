@@ -8,7 +8,7 @@ body{
 header{
 	width:100%;
 	position:fixed;
-	z-index:2;
+	z-index:13;
 	nav{
 		width:40%;
 		background-color:$lilaOscuro;
@@ -88,7 +88,7 @@ hr{
 	margin:auto;
 }
 .section-2{
-	background-color:#FFFDF7;
+	background-color:#F5F3ED;
 	padding:40px;
 	.foto{
 		border-radius:25px;
@@ -144,10 +144,31 @@ hr{
 	}
 }
 .section-4{
+	.selectores{
+		display:inline-block;
+		ul{
+			li{
+				display:inline-block;
+				background-color:$lilaOscuro;
+				color:white;
+				padding:15px;
+				border-radius:20px;
+				margin:20px;
+				list-style: none;
+				cursor:pointer;
+				&:hover{
+					background-color:$rosaClaro;
+					color:black;
+				}
+			}
+		}
+	}
 	li{
 		list-style: none;
 		margin:30px auto;
-		width:90%;
+	}
+	hr{
+		background-color:grey;
 	}
 	.ch-item {
 		margin:auto;
@@ -156,13 +177,18 @@ hr{
 		position: relative;
 		cursor: default;
 		box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+		li{
+			list-style: none;
+			margin:30px auto;
+			width:90%;
+		}
 	}
 	.ch-thumb {
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
 		position: absolute;
-		box-shadow: inset 0 0 0 15px rgba(255,255,255, 0.5);
+		box-shadow: inset 0 0 0 3px grey;
 		transform-origin: 95% 40%;
 		transition: all 0.3s ease-in-out;
 		&:after {
@@ -178,19 +204,21 @@ hr{
 		}
 	}
 	.ch-img-1 { 
-		background-image: url(../img/cabeza.jpg);
+		background-image: url(../img/app.jpg);
 		z-index: 12;
 		background-size:cover;
 	}
 
 	.ch-img-2 { 
-		background-image: url(../img/cabeza.jpg);
+		background-image: url(../img/ar13.jpg);
 		z-index: 11;
+		background-size:cover;
 	}
 
 	.ch-img-3 { 
-		background-image: url(../img/cabeza.jpg);
+		background-image: url(../img/fashion.jpg);
 		z-index: 10;
+		background-size:cover;
 	}
 	.ch-info {
 		position: absolute;

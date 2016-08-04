@@ -8,7 +8,7 @@ body {
 header {
   width: 100%;
   position: fixed;
-  z-index: 2; }
+  z-index: 13; }
   header nav {
     width: 40%;
     background-color: #8C4B9B;
@@ -77,7 +77,7 @@ hr {
   margin: auto; }
 
 .section-2 {
-  background-color: #FFFDF7;
+  background-color: #F5F3ED;
   padding: 40px; }
   .section-2 .foto {
     border-radius: 25px;
@@ -119,10 +119,25 @@ hr {
     width: 90%;
     height: 100px; }
 
+.section-4 .selectores {
+  display: inline-block; }
+  .section-4 .selectores ul li {
+    display: inline-block;
+    background-color: #8C4B9B;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px;
+    list-style: none;
+    cursor: pointer; }
+    .section-4 .selectores ul li:hover {
+      background-color: #F49CD2;
+      color: black; }
 .section-4 li {
   list-style: none;
-  margin: 30px auto;
-  width: 90%; }
+  margin: 30px auto; }
+.section-4 hr {
+  background-color: grey; }
 .section-4 .ch-item {
   margin: auto;
   width: 100%;
@@ -130,12 +145,16 @@ hr {
   position: relative;
   cursor: default;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+  .section-4 .ch-item li {
+    list-style: none;
+    margin: 30px auto;
+    width: 90%; }
 .section-4 .ch-thumb {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: absolute;
-  box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 0 0 3px grey;
   transform-origin: 95% 40%;
   transition: all 0.3s ease-in-out; }
   .section-4 .ch-thumb:after {
@@ -149,15 +168,17 @@ hr {
     background: radial-gradient(ellipse at center, #0e0e0e 0%, #7d7e7d 100%);
     box-shadow: 0 0 1px rgba(255, 255, 255, 0.9); }
 .section-4 .ch-img-1 {
-  background-image: url(../img/cabeza.jpg);
+  background-image: url(../img/app.jpg);
   z-index: 12;
   background-size: cover; }
 .section-4 .ch-img-2 {
-  background-image: url(../img/cabeza.jpg);
-  z-index: 11; }
+  background-image: url(../img/ar13.jpg);
+  z-index: 11;
+  background-size: cover; }
 .section-4 .ch-img-3 {
-  background-image: url(../img/cabeza.jpg);
-  z-index: 10; }
+  background-image: url(../img/fashion.jpg);
+  z-index: 10;
+  background-size: cover; }
 .section-4 .ch-info {
   position: absolute;
   width: inherit;
