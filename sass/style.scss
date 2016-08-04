@@ -336,6 +336,16 @@ hr{
 			color:$lilaOscuro;
 			background-color:#FFE0FE;
 	}
+	button{
+		background-color:$rosaOscuro;
+		padding:15px 30px;
+		border-radius:20px;
+		font-size: 15px;
+		&:hover{
+			background-color:$rosaClaro;
+			color:$lilaOscuro;
+		}
+	}
 }
 footer{
 	.container{

@@ -272,6 +272,14 @@ hr {
     text-align: center;
     color: #8C4B9B;
     background-color: #FFE0FE; }
+  .section-5 button {
+    background-color: #EC4790;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 15px; }
+    .section-5 button:hover {
+      background-color: #F49CD2;
+      color: #8C4B9B; }
 
 footer .container {
   background-color: #8C4B9B;
