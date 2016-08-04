@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px; }
 
+.container {
+  width: 99% !important; }
+
 body {
   background: #fffffa; }
 
@@ -174,19 +177,19 @@ hr {
     box-shadow: 0 0 1px rgba(255, 255, 255, 0.9); }
 .section-4 .ch-img-1 {
   background-image: url(../img/app.jpg);
-  z-index: 9;
+  z-index: 12;
   background-size: cover; }
 .section-4 .ch-img-2 {
   background-image: url(../img/ar13.jpg);
-  z-index: 8;
+  z-index: 11;
   background-size: cover; }
 .section-4 .ch-img-3 {
   background-image: url(../img/fashion.jpg);
-  z-index: 7;
+  z-index: 10;
   background-size: cover; }
 .section-4 .ch-img-4 {
   background-image: url(../img/wp.jpg);
-  z-index: 10;
+  z-index: 11;
   background-size: cover; }
 .section-4 .ch-img-5 {
   background-image: url(../img/flat.jpg);
@@ -194,7 +197,7 @@ hr {
   background-size: cover; }
 .section-4 .ch-img-6 {
   background-image: url(../img/love.jpg);
-  z-index: 10;
+  z-index: 9;
   background-size: cover; }
 .section-4 .ch-img-7 {
   background-image: url(../img/cinema.jpg);
@@ -202,11 +205,11 @@ hr {
   background-size: cover; }
 .section-4 .ch-img-8 {
   background-image: url(../img/escuela.jpg);
-  z-index: 10;
+  z-index: 9;
   background-size: cover; }
-.section-4 .ch-img-8 {
+.section-4 .ch-img-9 {
   background-image: url(../img/flatn.jpg);
-  z-index: 10;
+  z-index: 8;
   background-size: cover; }
 .section-4 .ch-info {
   position: absolute;
@@ -250,7 +253,8 @@ hr {
 
 .section-5 {
   background-color: #8C4B9B;
-  color: #F5D6F1; }
+  color: #F5D6F1;
+  padding: 30px; }
   .section-5 hr {
     background-color: #F5D6F1; }
   .section-5 .contacto {
@@ -306,14 +310,15 @@ hr {
       background-color: #F49CD2;
       color: #8C4B9B; }
 
-footer .container-fluid {
-  background-color: #F49CD2;
+footer .container {
+  background-color: #302A30;
   color: white;
-  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   text-align: center; }
-  footer .container-fluid img {
-    width: 80px;
-    height: 80px;
+  footer .container img {
+    width: 60px;
+    height: 60px;
     border-radius: 10px; }
 
 .contenido h1 {

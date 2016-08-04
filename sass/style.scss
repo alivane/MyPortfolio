@@ -2,6 +2,9 @@
 	margin:0px;
 	padding:0px;
 }
+.container{
+	width:99% !important;
+}
 body{
 	background:#fffffa;
 }
@@ -211,24 +214,24 @@ hr{
 	}
 	.ch-img-1 { 
 		background-image: url(../img/app.jpg);
-		z-index: 9;
+		z-index: 12;
 		background-size:cover;
 	}
 
 	.ch-img-2 { 
 		background-image: url(../img/ar13.jpg);
-		z-index: 8;
+		z-index: 11;
 		background-size:cover;
 	}
 
 	.ch-img-3 { 
 		background-image: url(../img/fashion.jpg);
-		z-index: 7;
+		z-index: 10;
 		background-size:cover;
 	}
 	.ch-img-4 { 
 		background-image: url(../img/wp.jpg);
-		z-index: 10;
+		z-index: 11;
 		background-size:cover;
 	}
 	.ch-img-5 { 
@@ -238,7 +241,7 @@ hr{
 	}
 	.ch-img-6 { 
 		background-image: url(../img/love.jpg);
-		z-index: 10;
+		z-index: 9;
 		background-size:cover;
 	}
 	.ch-img-7 { 
@@ -248,12 +251,12 @@ hr{
 	}
 	.ch-img-8 { 
 		background-image: url(../img/escuela.jpg);
-		z-index: 10;
+		z-index: 9;
 		background-size:cover;
 	}
-	.ch-img-8 { 
+	.ch-img-9 { 
 		background-image: url(../img/flatn.jpg);
-		z-index: 10;
+		z-index: 8;
 		background-size:cover;
 	}
 	.ch-info {
@@ -309,6 +312,7 @@ hr{
 .section-5{
 	background-color:$lilaOscuro;
 	color:#F5D6F1;
+	padding:30px;
 	hr{
 		background-color:#F5D6F1;
 	}
@@ -379,14 +383,15 @@ hr{
 	}
 }
 footer{
-	.container-fluid{
-		background-color:$rosaClaro;
+	.container{
+		background-color:#302A30;
 		color:white;
-		padding:30px;
+		padding-top:40px;
+		padding-bottom:30px;
 		text-align:center;
 		img{
-			width:80px;
-			height:80px;
+			width:60px;
+			height:60px;
 			border-radius:10px;
 		}
 	}

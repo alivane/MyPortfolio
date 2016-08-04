@@ -23,5 +23,23 @@ $(document).ready(function(){
 		nuevaLetra = setInterval(cambiarLetra,3000);
 		nuevaLetra = setInterval(cambiarLetra1,60000);
 		nuevaLetra = setInterval(cambiarLetra2,9000);
+
 	}
 });
+$(document).ready(function(){
+	$('.1').click(function(){
+		$('.jv').add('.css').add('.equipo').show();
+	})
+	$('.2').click(function(){
+		$('.jv').hide();
+		$('.css').show();
+	})
+	$('.3').click(function(){
+		$('.css').add('.equipo').hide();
+		$('.jv').show();
+	})
+	$('.4').click(function(){
+		$('.jv').add('.css').hide();
+		$('.equipo').show();
+	})
+})
