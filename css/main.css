@@ -30,7 +30,7 @@ header {
           header nav ul li a:hover {
             text-decoration: none;
             background-color: #F49CD2;
-            color: #8C4B9B;
+            color: #FFE0FE;
             text-align: center; }
         header nav ul li i {
           margin-right: 10px; }
@@ -50,8 +50,7 @@ header {
       cursor: pointer; }
       header .menu_bar i:hover {
         background-color: #F49CD2;
-        border: 1px solid #8C4B9B;
-        color: #8C4B9B;
+        color: #FFE0FE;
         transition: all 0.5s ease-in-out; }
 
 .contenido {
@@ -66,7 +65,9 @@ header {
   transition-property: opacity, left, top, height; }
   .contenido h1 {
     width: 70%;
-    margin: 60px auto; }
+    margin: 60px auto;
+    color: #FFE0FE;
+    text-shadow: 0px 5px 4px #000; }
 
 img {
   width: 100%; }
@@ -80,7 +81,7 @@ hr {
   margin: auto; }
 
 .section-2 {
-  background-color: #F5F3ED;
+  background-color: #FFE0FE;
   padding: 40px; }
   .section-2 .foto {
     border-radius: 25px;
@@ -130,7 +131,7 @@ hr {
     color: white;
     padding: 15px;
     border-radius: 20px;
-    margin: 20px;
+    margin: 9px;
     list-style: none;
     cursor: pointer;
     transition: all 0.5s ease-in-out; }
@@ -286,5 +287,18 @@ footer .container {
   height: 100px;
   color: white;
   padding: 30px; }
+
+.contenido h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 60px;
+  font-width: 20px; }
+
+section h1 {
+  font-family: 'Lato', sans-serif; }
+section h2 {
+  font-family: 'Dekko', cursive; }
+section p {
+  font-family: 'Dekko', cursive;
+  font-size: 23px; }
 
 /*# sourceMappingURL=main.css.map */

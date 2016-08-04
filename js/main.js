@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$('.contenido h1').html('<h1>Soy Front-End</h1>')
 	}
 	function cambiarLetra1(){
-		$('.contenido h1').html('<h1>Habilidades en Back-End</h1>')
+		$('.contenido h1').html('<h1>Tengo habilidades para Back-End</h1>')
 	}
 	function cambiarLetra2(){
 		$('.contenido h1').html('<h1>Mi Lema Responsabilidad, y trabajo en equipo</h1>')
