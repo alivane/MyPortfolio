@@ -306,12 +306,12 @@ hr {
       background-color: #F49CD2;
       color: #8C4B9B; }
 
-footer .container {
-  background-color: #8C4B9B;
+footer .container-fluid {
+  background-color: #F49CD2;
   color: white;
   padding: 30px;
   text-align: center; }
-  footer .container img {
+  footer .container-fluid img {
     width: 80px;
     height: 80px;
     border-radius: 10px; }
