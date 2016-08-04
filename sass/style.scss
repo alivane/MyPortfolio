@@ -211,18 +211,48 @@ hr{
 	}
 	.ch-img-1 { 
 		background-image: url(../img/app.jpg);
-		z-index: 12;
+		z-index: 9;
 		background-size:cover;
 	}
 
 	.ch-img-2 { 
 		background-image: url(../img/ar13.jpg);
-		z-index: 11;
+		z-index: 8;
 		background-size:cover;
 	}
 
 	.ch-img-3 { 
 		background-image: url(../img/fashion.jpg);
+		z-index: 7;
+		background-size:cover;
+	}
+	.ch-img-4 { 
+		background-image: url(../img/wp.jpg);
+		z-index: 10;
+		background-size:cover;
+	}
+	.ch-img-5 { 
+		background-image: url(../img/flat.jpg);
+		z-index: 10;
+		background-size:cover;
+	}
+	.ch-img-6 { 
+		background-image: url(../img/love.jpg);
+		z-index: 10;
+		background-size:cover;
+	}
+	.ch-img-7 { 
+		background-image: url(../img/cinema.jpg);
+		z-index: 10;
+		background-size:cover;
+	}
+	.ch-img-8 { 
+		background-image: url(../img/escuela.jpg);
+		z-index: 10;
+		background-size:cover;
+	}
+	.ch-img-8 { 
+		background-image: url(../img/flatn.jpg);
 		z-index: 10;
 		background-size:cover;
 	}
@@ -351,8 +381,13 @@ hr{
 footer{
 	.container{
 		background-color:$lilaOscuro;
-		height:100px;	
 		color:white;
 		padding:30px;
+		text-align:center;
+		img{
+			width:80px;
+			height:80px;
+			border-radius:10px;
+		}
 	}
 }

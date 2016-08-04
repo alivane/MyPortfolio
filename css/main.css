@@ -174,14 +174,38 @@ hr {
     box-shadow: 0 0 1px rgba(255, 255, 255, 0.9); }
 .section-4 .ch-img-1 {
   background-image: url(../img/app.jpg);
-  z-index: 12;
+  z-index: 9;
   background-size: cover; }
 .section-4 .ch-img-2 {
   background-image: url(../img/ar13.jpg);
-  z-index: 11;
+  z-index: 8;
   background-size: cover; }
 .section-4 .ch-img-3 {
   background-image: url(../img/fashion.jpg);
+  z-index: 7;
+  background-size: cover; }
+.section-4 .ch-img-4 {
+  background-image: url(../img/wp.jpg);
+  z-index: 10;
+  background-size: cover; }
+.section-4 .ch-img-5 {
+  background-image: url(../img/flat.jpg);
+  z-index: 10;
+  background-size: cover; }
+.section-4 .ch-img-6 {
+  background-image: url(../img/love.jpg);
+  z-index: 10;
+  background-size: cover; }
+.section-4 .ch-img-7 {
+  background-image: url(../img/cinema.jpg);
+  z-index: 10;
+  background-size: cover; }
+.section-4 .ch-img-8 {
+  background-image: url(../img/escuela.jpg);
+  z-index: 10;
+  background-size: cover; }
+.section-4 .ch-img-8 {
+  background-image: url(../img/flatn.jpg);
   z-index: 10;
   background-size: cover; }
 .section-4 .ch-info {
@@ -284,9 +308,13 @@ hr {
 
 footer .container {
   background-color: #8C4B9B;
-  height: 100px;
   color: white;
-  padding: 30px; }
+  padding: 30px;
+  text-align: center; }
+  footer .container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px; }
 
 .contenido h1 {
   font-family: 'Kaushan Script', cursive;
