@@ -20,11 +20,13 @@ header{
 				list-style: none;
 				display:block;
 				border-bottom:3px solid whitesmoke;
+				transition: all 0.5s ease-in-out;
 				a{
 					color:whitesmoke;
 					padding:15px;
 					text-decoration:none;
 					display:block;
+					transition: all 0.5s ease-in-out;
 					&:hover{
 						text-decoration:none;
 						background-color:$rosaClaro;
@@ -57,6 +59,7 @@ header{
 					background-color:$rosaClaro;
 					border:1px solid $lilaOscuro;
 					color:$lilaOscuro;
+					transition: all 0.5s ease-in-out;
 				}
 			}
 	}
@@ -156,9 +159,11 @@ hr{
 				margin:20px;
 				list-style: none;
 				cursor:pointer;
+				transition: all 0.5s ease-in-out;
 				&:hover{
 					background-color:$rosaClaro;
 					color:black;
+
 				}
 			}
 		}
@@ -273,6 +278,9 @@ hr{
 .section-5{
 	background-color:$lilaOscuro;
 	color:#F5D6F1;
+	hr{
+		background-color:#F5D6F1;
+	}
 	.contacto{
 		background-color:$rosaClaro;
 		height:150px;
@@ -306,8 +314,28 @@ hr{
 			}
 
 		}
+
 	}
-	
+	input{
+			display:block;
+			margin:20px auto;
+			height:40px;
+			width:85%;
+			border-radius:20px;
+			text-align: center;
+			color:$lilaOscuro;
+			background-color:#FFE0FE;
+		}
+	textarea{
+		display:block;
+			margin:30px auto;
+			height:150px;
+			width:85%;
+			border-radius:20px;
+			text-align: center;
+			color:$lilaOscuro;
+			background-color:#FFE0FE;
+	}
 }
 footer{
 	.container{

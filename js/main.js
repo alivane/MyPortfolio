@@ -9,19 +9,19 @@ $(document).ready(function(){
 })
 $(document).ready(function(){
 	myFunction()
-	function cambiarFondo(){
+	function cambiarLetra(){
 		$('.contenido h1').html('<h1>Soy Front-End</h1>')
 	}
-	function cambiarFondo1(){
+	function cambiarLetra1(){
 		$('.contenido h1').html('<h1>Habilidades en Back-End</h1>')
 	}
-	function cambiarFondo2(){
+	function cambiarLetra2(){
 		$('.contenido h1').html('<h1>Mi Lema Responsabilidad, y trabajo en equipo</h1>')
 	}
-	var nuevoFondo;
+	var nuevaLetra;
 	function myFunction(){
-		nuevoFondo = setInterval(cambiarFondo,5000);
-		nuevoFondo = setInterval(cambiarFondo1,10000);
-		nuevoFondo = setInterval(cambiarFondo2,15000);
+		nuevaLetra = setInterval(cambiarLetra,5000);
+		nuevaLetra = setInterval(cambiarLetra1,10000);
+		nuevaLetra = setInterval(cambiarLetra2,15000);
 	}
 });
