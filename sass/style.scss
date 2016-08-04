@@ -82,6 +82,26 @@ header{
 		color:#FFE0FE;
 		text-shadow: 0px 5px 4px #000;
 	}
+	.selectores1{
+		li{
+				display:inline-block;
+				background-color:$lilaOscuro;
+				color:white;
+				padding:15px;
+				border-radius:20px;
+				margin:9px;
+				list-style: none;
+				transition: all 0.5s ease-in-out;
+				float: right;
+				margin-top: 60px;
+				border:2px solid $rosaClaro;
+				&:hover{
+					background-color:$rosaClaro;
+					color:black;
+
+				}
+			}
+		}
 }
 img{
 	width:100%;
